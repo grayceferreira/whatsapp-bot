@@ -1,0 +1,8 @@
+2020/09/12-01:04:33.004 3864 Reusing MANIFEST C:\Users\g.de.deus.ferreira\Desktop\whatsapp-bot\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/12-01:04:33.004 3864 Recovering log #10
+2020/09/12-01:04:33.005 3864 Reusing old log C:\Users\g.de.deus.ferreira\Desktop\whatsapp-bot\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000010.log 
+2020/09/12-01:05:05.067 4320 Level-0 table #14: started
+2020/09/12-01:05:05.067 4320 Level-0 table #14: 0 bytes OK
+2020/09/12-01:05:05.073 4320 Delete type=0 #10
+2020/09/12-01:05:05.074 4320 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/12-01:05:05.074 4320 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

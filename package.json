@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot for whatsApp using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grayceferreira/whatsapp-bot.git"
+  },
+  "author": "Grayce Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grayceferreira/whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/grayceferreira/whatsapp-bot#readme",
+  "dependencies": {
+    "sulla": "^2.3.14"
+  }
+}
