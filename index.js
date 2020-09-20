@@ -1,13 +1,25 @@
 // Supports ES6
-// import { create, Whatsapp } from 'sulla';
-const sulla = require('sulla');
-
-sulla.create().then((client) => start(client));
-
+// import { create, Whatsapp } from 'venom-bot';
+const venom = require('venom-bot');
+ 
+venom
+  .create()
+  .then((client) => start(client))
+  .catch((erro) => {
+    console.log(erro);
+  });
+ 
 function start(client) {
   client.onMessage((message) => {
-    if (message.body === 'Hi') {
-      client.sendText(message.from, '👋 Hello from sullaaaaa!');
+    if (message.body === 'Hi' && message.isGroupMsg === false) {
+      client
+        .sendText(message.from, 'Welcome Venom 🕷')
+        .then((result) => {
+          console.log('Result: ', result); //return object success
+        })
+        .catch((erro) => {
+          console.error('Error when sending: ', erro); //return object error
+        });
     }
   });
 }
