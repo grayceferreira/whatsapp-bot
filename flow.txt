@@ -1,0 +1,14 @@
+-- How to make an order?
+-- Welcome and show the options
+-- The customer pick the option up and send the option number
+-- Send the description of the option and ask to confirm
+-- The customer send 1 to confirm or 2 to decline 
+-- If confirmed, send the total amount; if declined, send the options again
+-- If declined, the customer will send the option again 
+-- Send the description of the option and ask to confirm
+-- The customer send 1 to confirm or 2 to decline (and the process continue until get the right order item)
+-- Ask for the address where the order will be sent
+-- The customer will send the address
+-- Once the address is confirmed, send the payment method options
+-- The customer will pick up one option (debit or credit)
+-- Send the link for payment and the order number
